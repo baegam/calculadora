@@ -32,3 +32,15 @@ def factorial():
         for i in range(1, n + 1):
             fact *= i
         print(f"El factorial de {n} es {fact}")
+
+def tabla_multiplicar():
+    num = int(input("Ingrese el número de la tabla (1 al 10): "))
+    print(f"Tabla de multiplicar del {num}")
+    for i in range(1, 11):
+        print(f"{num} x {i} = {num * i}")
+ 
+ 
+def cuadrado_cubo():
+    num = float(input("Ingrese un número: "))
+    print("Cuadrado:", num ** 2)
+    print("Cubo:", num ** 3)
